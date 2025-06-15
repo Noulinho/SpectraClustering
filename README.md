@@ -1,1 +1,2 @@
 # SpectraClustering
+This project clusters global horizontal irradiance (GHI) data. First, the spectral features are reduced from 801 to 6, taking the latent represantation of a trained Deep Autoencoder. Then, the reduced-dimensional data are clustered with HAC. Finally, Average Photon Energy (APE) and clear sky index (CSI) are calculated on the data and correlation between those values, as well as other weather data, such as wind speed and direction, temperature, zenith angle, are illustrated.
